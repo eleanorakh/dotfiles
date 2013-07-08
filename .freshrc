@@ -1,0 +1,10 @@
+fresh freshshell/fresh bin/fresh --bin
+fresh freshshell/fresh contrib/source-build.sh --file=~/.bash_profile
+
+fresh jasoncodes/dotfiles shell/aliases/rbenv.sh
+fresh jasoncodes/dotfiles shell/config/rbenv.sh
+fresh jasoncodes/dotfiles shell/functions/realpath.sh
+fresh jasoncodes/dotfiles shell/profile
+
+fresh jasoncodes/dotfiles config/irbrc --file
+fresh jasoncodes/dotfiles config/inputrc --file
