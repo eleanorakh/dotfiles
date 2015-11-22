@@ -1,0 +1,12 @@
+echo -e "Good morning Ellie! Have a lovely day!"
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/auto.sh # This is for auto-switching rubies #TODO look into this Ellie
+
+alias gs='git status'
+alias gc='git commit'
+alias ga='git add'
+alias gl='git log'
+alias gap='git add --patch'
+PS1="\e[31m\h\e[0m:\W \u-> "
+
+# "\e[31mHello World\e[0m"
