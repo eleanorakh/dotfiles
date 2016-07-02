@@ -2,11 +2,27 @@ echo -e "Good morning Ellie! Have a lovely day!"
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh # This is for auto-switching rubies #TODO look into this Ellie
 
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
 alias gs='git status'
 alias gc='git commit'
 alias ga='git add'
-alias gl='git log'
+alias gl='git smart-log'
+alias gb='git branch'
+alias gd='git diff'
+alias gds='git diff --staged'
 alias gap='git add --patch'
+alias gup='git smart-pull'
+alias be='bundle exec'
+alias ber='bundle exec rspec'
+alias gco='git checkout'
+alias gcob='git checkout -b'
+alias gcom='git checkout master'
+alias gpu='git push -u origin'
+alias gpf='git push -f origin'
+alias zr='zeus rspec'
+
 PS1="\e[31m\h\e[0m:\W \u-> "
 
 # "\e[31mHello World\e[0m"
