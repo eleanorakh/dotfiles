@@ -22,6 +22,7 @@ alias gcom='git checkout master'
 alias gpu='git push -u origin'
 alias gpf='git push -f origin'
 alias zr='zeus rspec'
+alias fd='--format documentation'
 
 PS1="\e[31m\h\e[0m:\W \u-> "
 
