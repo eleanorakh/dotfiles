@@ -8,3 +8,5 @@ fresh jasoncodes/dotfiles config/irbrc --file
 fresh jasoncodes/dotfiles config/inputrc --file
 
 fresh shell/bash_profile --file
+
+fresh rupa/z z.sh
