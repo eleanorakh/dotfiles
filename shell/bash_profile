@@ -1,8 +1,5 @@
 echo -e "Good morning Ellie! Have a lovely day!"
-source /usr/local/opt/chruby/share/chruby/chruby.sh
-source /usr/local/opt/chruby/share/chruby/auto.sh # This is for auto-switching rubies #TODO look into this Ellie
 
-export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 alias gs='git status'
@@ -27,3 +24,5 @@ alias fd='--format documentation'
 PS1="\e[31m\h\e[0m:\W \u-> "
 export EDITOR=vim
 # "\e[31mHello World\e[0m"
+
+export PATH="$HOME/go/bin:$PATH"
