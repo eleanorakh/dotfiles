@@ -25,4 +25,5 @@ My dotfiles are managed by [fresh].
 - Install VSCode https://code.visualstudio.com/
 - Set git author `git config --global --edit`
 - Install postgres `brew install postgres`
+- don't forget to bundle
 - Add ssh keys e.c.t
