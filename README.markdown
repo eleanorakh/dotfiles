@@ -2,7 +2,7 @@
 
 ## Installation
 
-Ensure you've got brew installed and follow the prompts to install Xcode CLI tools:
+Install homebew with the following command. Follow the prompts to also install Xcode CLI tools. This means you likely wont need Xcode.
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
